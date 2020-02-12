@@ -1,0 +1,188 @@
+@import url(//db.onlinewebfonts.com/c/dbb5d50716af7c45dd357a6a585d7a9e?family=MoolBoran);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+input {
+  padding: 0; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "MoolBoran";
+  src: url("//db.onlinewebfonts.com/t/dbb5d50716af7c45dd357a6a585d7a9e.eot");
+  src: url("//db.onlinewebfonts.com/t/dbb5d50716af7c45dd357a6a585d7a9e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dbb5d50716af7c45dd357a6a585d7a9e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dbb5d50716af7c45dd357a6a585d7a9e.woff") format("woff"), url("//db.onlinewebfonts.com/t/dbb5d50716af7c45dd357a6a585d7a9e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dbb5d50716af7c45dd357a6a585d7a9e.svg#MoolBoran") format("svg"); }
+
+html {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 16px; }
+  html body {
+    background-color: #04020d; }
+  html #langForm {
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+    html #langForm .form-control, html #langForm button, html #langForm .dropdown-menu {
+      border-radius: 0;
+      border: 1px solid #275fac;
+      background: none;
+      color: #fff; }
+    html #langForm .dropdown-menu {
+      padding-bottom: 0;
+      margin-top: 0;
+      padding-top: 0;
+      top: -1px;
+      border-top: 0; }
+    html #langForm .dropdown-item.active, html #langForm .dropdown-item:active {
+      background: #275fac;
+      color: #fff; }
+    html #langForm .dropdown-item:focus, html #langForm .dropdown-item:hover {
+      background: #275fac;
+      color: #fff; }
+    html #langForm .dropdown-item {
+      color: #fff; }
+  html .small-txt {
+    color: #c3c3c3;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.3;
+    font-size: 90%;
+    opacity: 0.5;
+    padding: 0 1em;
+    padding-bottom: 2em;
+    text-decoration: underline;
+    transition: all 0.2s linear; }
+    html .small-txt:hover {
+      opacity: 0.8; }
+  html .need-help {
+    text-align: right;
+    padding-right: 5px; }
+    html .need-help a {
+      font-size: 0.9em;
+      color: #fff;
+      text-decoration: underline;
+      opacity: 0.8;
+      transition: all 0.2s linear;
+      text-align: right; }
+      html .need-help a:hover {
+        opacity: 0.5; }
+  html .content {
+    color: #fff;
+    /* Firefox 19+ */
+    /* Firefox 18- */ }
+    html .content h2 {
+      font-size: 1.6em;
+      font-weight: bold;
+      line-height: 1.4;
+      margin: 1em 0;
+      text-align: center; }
+    html .content h1 {
+      font-size: 4em;
+      line-height: 1.2;
+      font-family: "MoolBoran";
+      font-weight: 400; }
+    html .content p {
+      font-size: 1em;
+      color: #fdc98c;
+      margin: 1em auto;
+      text-align: center;
+      opacity: 0.5; }
+    html .content .upcase {
+      font-weight: bold;
+      text-align: center; }
+    html .content .img-wrapper {
+      width: 100%;
+      max-width: 720px;
+      margin: 0 auto; }
+    html .content .main-img {
+      max-width: 720px;
+      height: auto;
+      margin: 1.5rem auto;
+      width: 100%; }
+    html .content form {
+      margin-bottom: 4rem; }
+      html .content form > div:first-child input {
+        margin-bottom: 0.7em; }
+      html .content form .col-9 {
+        padding-left: 0;
+        padding-right: 5px; }
+      html .content form .col-3 {
+        padding-left: 5px;
+        padding-right: 0; }
+    html .content input::-webkit-input-placeholder {
+      color: #d3d3d3; }
+    html .content input::-moz-placeholder {
+      color: #d3d3d3; }
+    html .content input:-moz-placeholder {
+      color: #d3d3d3; }
+    html .content input:-ms-input-placeholder {
+      color: #d3d3d3; }
+    html .content .form-input, html .content .form-submit {
+      font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      font-size: 1.5rem;
+      height: 3rem;
+      box-shadow: none;
+      border: 0;
+      padding: 0.5rem  0.7em;
+      text-align: center;
+      width: 100%;
+      margin: 0.5rem auto; }
+    html .content .form-input {
+      background: #04020d;
+      border: 1px solid #275fac;
+      color: #fff;
+      font-size: 1.2em;
+      opacity: 0.8; }
+    html .content .form-submit {
+      background-color: #275fac;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #fff;
+      padding: 0.5rem  1em;
+      transition: all 0.2s linear; }
+      html .content .form-submit:hover {
+        background: #1e4882; }
