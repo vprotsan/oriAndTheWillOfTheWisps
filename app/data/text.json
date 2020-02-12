@@ -1,6 +1,6 @@
 {
-  "data":[{
-      "header": {
+  "data":[
+      {
           "English":	"Original Soundtrack",
           "Norwegian":	"Orginalt lydspor",
           "Hebrew":  "פסקול מקורי",
@@ -20,8 +20,8 @@
           "Polish":	"Oryginalna ścieżka dźwiękowa",
           "Spanish LATAM":	"Banda sonora original",
           "French Canadian":	"Bande sonore originale"
-      }},
-      {"subheader": {
+      },
+      {
           "English":	"Music Composed and Produced by Gareth Coker",
           "Norwegian":	"Musikk komponert og produsert av Gareth Coker",
           "Hebrew": "המוזיקה הולחנה והופקה על ידי גארת' קוקר",
@@ -41,8 +41,8 @@
           "Polish":	"Muzyka skomponowana i wyprodukowana przez Garetha Cokera",
           "Spanish LATAM":	"Música compuesta y producida por Gareth Coker",
           "French Canadian":	"Musique composée et produite par Gareth Coker"
-      }},
-      {"text": {
+      },
+      {
           "English":	"Enter your digital download code below to redeem your MP3 download",
           "Norwegian":	"Skriv inn den digitale nedlastingskoden nedenfor for å løse inn MP3-nedlastingen",
           "Hebrew":  "הזן את קוד ההורדה הדיגיטלי למטה כדי לממש את הורדת ה-MP3 שלך",
@@ -62,6 +62,6 @@
           "Polish":	"Wprowadź poniżej swój kod dystrybucji cyfrowej, aby pobrać MP3",
           "Spanish LATAM":	"Especifica tu código de descarga digital abajo para canjear tu descarga de MP3",
           "French Canadian":	"Entrez votre code de téléchargement numérique ci-dessous pour réclamer votre téléchargement MP3"
-      }}
+      }
   ]
 }

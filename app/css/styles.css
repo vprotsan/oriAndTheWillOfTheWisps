@@ -60,7 +60,9 @@ html {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 16px; }
   html body {
-    background-color: #04020d; }
+    background-color: #000000; }
+    html body .container-fluid {
+      max-width: 780px; }
   html #langForm {
     position: absolute;
     top: 20px;
@@ -71,6 +73,7 @@ html {
       background: none;
       color: #fff; }
     html #langForm .dropdown-menu {
+      background: #000000;
       padding-bottom: 0;
       margin-top: 0;
       padding-top: 0;
@@ -147,12 +150,14 @@ html {
       margin-bottom: 4rem; }
       html .content form > div:first-child input {
         margin-bottom: 0.7em; }
-      html .content form .col-9 {
-        padding-left: 0;
-        padding-right: 5px; }
-      html .content form .col-3 {
-        padding-left: 5px;
-        padding-right: 0; }
+      @media only screen and (min-width: 540px) {
+        html .content form .col-md-9 {
+          padding-left: 0;
+          padding-right: 5px; } }
+      @media only screen and (min-width: 540px) {
+        html .content form .col-md-3 {
+          padding-left: 5px;
+          padding-right: 0; } }
     html .content input::-webkit-input-placeholder {
       color: #d3d3d3; }
     html .content input::-moz-placeholder {
@@ -172,7 +177,7 @@ html {
       width: 100%;
       margin: 0.5rem auto; }
     html .content .form-input {
-      background: #04020d;
+      background: #000000;
       border: 1px solid #275fac;
       color: #fff;
       font-size: 1.2em;
